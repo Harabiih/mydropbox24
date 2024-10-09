@@ -6,7 +6,7 @@ Dropbox is a file hosting service operated by the American company Dropbox, Inc.
 
 
 ***************  Deployed on amplify  ***********
-project url: `https://dev.d23guhwq7ww6uy.amplifyapp.com`
+project url:[https://dev.d3r4ar8d8swlcd.amplifyapp.com/]`
 
 ## Task
 To replicate a project with same features like that of Dropbox
@@ -35,7 +35,7 @@ to install react module and packages `npm install `
 ## Usage
 The usage of the project is very simple:
 kindly visit the link of the project below...
-`https://dev.d23guhwq7ww6uy.amplifyapp.com`
+[https://dev.d3r4ar8d8swlcd.amplifyapp.com/]
 
 ### steps: 
  =>  Sign in / Create an accunt
@@ -45,12 +45,12 @@ kindly visit the link of the project below...
  ........................ more...........................
 
  ## Check it out via the link below: 
- `  https://dev.d23guhwq7ww6uy.amplifyapp.com  `
+ `  [https://dev.d3r4ar8d8swlcd.amplifyapp.com/] `
 
 
 ### The Core Team
-Joshua Damilola   (damilola_j) 
-AKe Martins Olu   (olu-ake_m)
+Hauwa Muhammad Bukar
+Adejoh Victor Idoko
 
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
 <span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>

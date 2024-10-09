@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+  padding: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 12px 35px rgba(72, 84, 96, 0.15);
+  max-width: 1100px;
+  margin: 60px auto;
+  transition: transform 0.3s ease;
+}
+
+.App:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #7a57d1;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  margin: 40px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  background-color: #7a57d1;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #6741b3;
+}
+
+.m-1 {
+  margin: 15px;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 10px 25px rgba(255, 105, 180, 0.4);
+}
+
+button:hover {
+  background-color: #ff85c1;
+  box-shadow: 0px 15px 30px rgba(255, 105, 180, 0.5);
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.p-6 {
+  padding: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  color: #ff4757;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Loader {
+  margin-top: 60px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #999;
+}
+
+/* Improved Responsiveness */
+@media (max-width: 768px) {
+  .App {
+    padding: 30px;
+    max-width: 95%;
+    margin: 20px auto;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
